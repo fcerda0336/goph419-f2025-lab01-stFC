@@ -7,15 +7,33 @@ Lab assignment 01 -  Implementation and algorithm to compute the allowable range
 * \* Fall Semester 2025
 * \* Instructor		: B. Karchewski
 * \* Author :		:  Fernando Cerda
-* Implemention of an algorithm to compute the allowable range of launch angles for the first stage of the
-* rocket system to reach a target maximum altitude within a specified tolerance. The launch angle from vertical as φ0 and the target maximum altitude as αR, where R is the radius of Earth (i.e. distance from Earth's centre at maximum altitude is R + αR). 
-* Assumptions:
-* The maximum (initial) velocity of the launch vehicle v0 is reached shortly after
-* launch when the altitude is small, so the initial height is approximately R
-* There is no active thrust after reaching v0 so the mass of the vehicle m stays constant
-* Air resistance is negligible after reaching v0 because most of the atmosphere isbelow
+* University of Calgary – Computational Methods for Geophysics (F2025)## Projectile Motion and Taylor Series Approximation
+* ---
+* \### ## Description
+* This project implements basic mathematical functions (square root, arcsine, and projectile motion calculations) in Python and validates them using unit tests.
+* .
+* 
+* ---
+* 
+* \### Repository Contents
+* \- `driver.py` — main script to run the program and generate figures  
+* \- `functions.py` — contains computational routines (Taylor expansions and angle calculations)  
+* \- `tests.py` — optional testing file It gave me some problems but it is fixed  
+* \- `requirements.txt` — lists Python dependencies  
+* \- `README.md` — this file  
+* 
+* ---
+* 
+* \###  To execute the main driver script and generate results:
+
+* \- python examples/driver.py
+* \-The program will:
+* \-Compute valid launch angles for input parameters (ve/v0, α, tol_α)
+* \-Plot launch angles versus altitude fraction (α)
+* \-Plot launch angles versus velocity ratio (ve/v0)
 
 
-
-
-
+* \### ## Usage
+* \-To run all tests:
+* \-python tests/tests.py
+* \-python -m unittest tests/tests.py

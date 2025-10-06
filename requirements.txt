@@ -1,0 +1,5 @@
+# GOPH419 2025 Lab 01 - Requirements
+# All libraries are part of the Python Standard Library.
+numpy
+matplotlib
+# Tested with Python 3.10+
